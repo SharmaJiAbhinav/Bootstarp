@@ -1,0 +1,116 @@
+
+.weblogo{
+    width: 65px;
+}
+
+.moblogo{
+    display: none;
+}
+
+.bgColor{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.textcolor{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.navbar-nav li{
+           padding: 0 10px;
+}
+
+.navbar-nav li a:hover{
+        border: 1px solid orange;
+        background-color: orange;
+    }
+
+    .text{
+        font-family: 'prague';
+        letter-spacing: 3px;
+    }
+
+    .para{
+        line-height: 35px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+
+    .bg{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHykIu9S6vxVV3zgbeafcgJvkNQ2lmOwZ82iIa38dIUg&s);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .clr{
+        color:#ffffff;
+        margin-top: 140px;
+    }
+
+    .para01{
+        color: #ffffff;
+        line-height: 40px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding-right: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+     .content{
+        text-align: center;
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+     }
+
+     .bg01{
+        background: url(https://pn-paul.netlify.app/image/ffback2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+      .context01{
+        padding-top: 45px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+      }
+
+      .para00{
+        line-height: 30px;
+        word-spacing: 1px;
+        font-size: 18px;
+        color: aliceblue;
+      }
+
+      .context00{
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'prague';
+        letter-spacing: 3px;
+    }
+      
+  @media(max-width: 768px){
+    .moblogo{
+        display: block;
+    }
+
+    .weblogo{
+        display: none;
+    }
+
+    .navbar{
+        background: #fbac1b;
+    }
+
+    .navbar-nav li a{
+        color:#fff !important;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+  

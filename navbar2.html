@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style>
+        .weblogo{
+            width: 65px;
+        }
+
+        .navbar{
+            background: #00000069 !important ;
+        }
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+
+        .navbar-nav li a{
+            color: #fff !important;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .moblogo{
+            display: none;
+        }
+
+        @media(max-width: 768px){
+             .moblogo{
+                display: block;
+             }
+
+             .weblogo{
+                display: none;
+             }
+
+             .navbar{
+                background: #fbac1b!important;
+             }
+        }
+    </style>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-md bg-dark navbar-dark ">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand"> <!--navbar brand to give spacing in icon-->
+                <img src="https://pn-paul.netlify.app/image/ff-logo-02.png" alt="" class="weblogo">
+                <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" alt="" class="moblogo">
+            </a>
+       <!-- nav-link to remove underline, navbar-nav to remove bullet -->
+       <!-- navbar-expand-md is used to arrange menu in a line and md for responsive  -->
+       <!-- navbar-dark is used to change color in light -->
+        
+       <!--mobile view-->
+       <button class="navbar-toggler"
+        data-bs-toggle="collapse" data-bs-target=#a >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       
+       <div class="navbar-collapse collapse" id="a">
+                  <ul class="navbar-nav ms-auto text-center" >
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                </ul>
+            </div>
+        </div><!--container fluid end-->
+    </nav>
+
+    <img src="./Image/pexels-photo-1420440.jpeg" alt="" class="w-100 ">
+
+</body>
+</html>

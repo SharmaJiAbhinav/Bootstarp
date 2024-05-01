@@ -1,0 +1,67 @@
+ .a{
+         text-align: center;
+         padding-top: 20px;
+         text-transform: uppercase;
+         font-family: 'cursive';
+         letter-spacing: 3px;
+ }
+
+ .b{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+ }
+
+ .img123{
+    width: 80%;
+ }
+
+ button{
+    background-color: pink !important;
+ }
+
+ .c{
+   background: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url(../Image/pexels-photo-1420440.jpeg);
+   width: 100%;
+   
+ }
+
+ .d{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: white;
+ }
+  
+ .e{
+   line-height: 35px;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+   padding-right: 5px;
+   color: white;
+ }
+
+ .f{
+   text-align: center;
+   padding-top: 20px;
+   text-transform: uppercase;
+   font-family: 'prague';
+   letter-spacing: 3px;
+ }
+
+ @media(max-width: 768px){
+   .moblogo{
+      display: block;
+   }
+
+   .weblogo{
+      display: none;
+   }
+
+   .navbar{
+      background: #fbac1b!important;
+   }
+}
